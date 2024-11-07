@@ -28,7 +28,7 @@ int main()
         cc[i + 1] = cc[i] / 10;
         cc[i] %= 10;
     }
-    while (cc[szc - 1] == 0 && szc > 0)
+    while (cc[szc - 1] == 0 && szc - 1 > 0)
     {
         szc--;
     }
