@@ -63,7 +63,7 @@ int main()
             cc[i + j - 1] %= 10;
         }
     }
-    while (cc[szc] == 0 && szc > 0)
+    while (cc[szc] == 0 && szc - 1 > 0)
     {
         szc--;
     }
