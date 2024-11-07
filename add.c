@@ -33,11 +33,12 @@ int main()
         szc--;
     }
     /*char ccc[1000];
-    for(int i = 0;i<szc;i++){
-        ccc[i] = cc[szc-i-1]+'0';
+    for (int i = 0; i < szc; i++)
+    {
+        ccc[i] = cc[szc - i - 1] + '0';
     }
     ccc[szc] = '\0';
-    printf("%s\n",ccc);*/
+    printf("%s\n", ccc);*/
     for (int i = szc - 1; i >= 0; i--)
     {
         printf("%d", cc[i]);
