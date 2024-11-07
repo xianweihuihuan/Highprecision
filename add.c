@@ -21,7 +21,8 @@ int main()
     }
     int cc[1100];
     int szc = (sza > szb) ? sza : szb;
-    for (int i = 0; i < szc + 1; i++)
+    szc++;
+    for (int i = 0; i < szc; i++)
     {
         cc[i] += aa[i] + bb[i];
         cc[i + 1] = cc[i] / 10;
